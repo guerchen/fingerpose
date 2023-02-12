@@ -20,8 +20,8 @@ thinkingFaceDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalUpRig
 // - direction vertical down (best)
 // - direction diagonal down left / right (acceptable)
 thinkingFaceDescription.addCurl(Finger.Index, FingerCurl.NoCurl, 1.0);
-thinkingFaceDescription.addDirection(Finger.Index, FingerDirection.DiagonalDownLeft, 0.5);
-thinkingFaceDescription.addDirection(Finger.Index, FingerDirection.DiagonalDownRight, 0.5);
+thinkingFaceDescription.addDirection(Finger.Index, FingerDirection.DiagonalUpLeft, 0.9);
+thinkingFaceDescription.addDirection(Finger.Index, FingerDirection.DiagonalUpRight, 0.9);
 
 // all other fingers:
 // - curled (best)
